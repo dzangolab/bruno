@@ -5,9 +5,15 @@
             "Optimus\\Bruno\\": "src/"
         }
     },
+    "repository": [
+        {
+            "type": "git",
+            "url": "https://github.com/nikolajlovenhardt/architect.git"
+        }
+    ],
     "require": {
-        "laravel/framework": "~5.4",
-        "optimus/architect": "~1.0"
+        "laravel/framework": "^6.0.0",
+        "optimus/architect": "dev-master as 2.0.0"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
