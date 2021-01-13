@@ -269,7 +269,7 @@ trait EloquentBuilderTrait
      * @param Builder $queryBuilder
      * @param $key
      */
-    private function joinRelatedModelIfExists(Builder $queryBuilder, $key)
+    protected function joinRelatedModelIfExists(Builder $queryBuilder, $key)
     {
         $model = $queryBuilder->getModel();
 
