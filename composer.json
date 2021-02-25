@@ -13,7 +13,7 @@
     ],
     "require": {
         "laravel/framework": "^7.0.0",
-        "optimus/architect": "dev-laravel-7"
+        "optimus/architect": "7.0.1"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
